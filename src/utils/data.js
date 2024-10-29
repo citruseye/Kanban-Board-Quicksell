@@ -1,4 +1,3 @@
-import { BsThreeDots, BsFillInfoSquareFill } from "react-icons/bs"
 import backlog from "../Assets/icons_FEtask/Backlog.svg";
 import todo from "../Assets/icons_FEtask/To-do.svg";
 import cancelled from "../Assets/icons_FEtask/Cancelled.svg";
@@ -18,7 +17,7 @@ export const priorities = [
     { title: "low", icon: <img src={low} alt="low" /> },
     { title: "medium", icon: <img src={medium} alt="medium" /> },
     { title: "high",  icon: <img src={high} alt="high" /> },
-    { title: "urgentcolor", icon: <img src={urgentcolor} alt="urgentcolor" /> }
+    { title: "urgent", icon: <img src={urgentcolor} alt="urgentcolor" /> }
 ];
 export const priority = [
     { title: "no priority", icon: <img src={noprior} alt="no priority" /> },
